@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="demoJS.css">
+		<title>Demo</title>
+	</head>
+	<body>
+		<header>
+			<h2>Thông Tin Người Mua Hàng</h2>
+		</header>
+		<form>
+		<div class="form-gruop">
+			<label>Tên Người Mua Hàng :</label>
+			<input type="text" name="fullname" id="name" placeholder="Nhập Tên Đầy Đủ" class="input-normal">
+			<span class="error"></span>
+		</div>
+		<div class="form-gruop">
+			<label>Địa Chỉ</label>
+			<input type="text" name="Pass" placeholder="Nhập Tên Địa Chỉ" class="input-normal" id="address">
+			<span class="error"></span>
+		</div>
+		<div class="form-gruop">
+			<label>Số Điện Thoại</label>
+			<input type="tel" name="RPW" id="tel" placeholder="Nhập Vào Số phone" class="input-normal">
+			<span class="error"></span>
+		</div>
+		<div class="form-gruop">
+		    <input type="text" name="email" placeholder="nhập vào email" id="email" class="email">
+		    <label>Email</label>
+		    <select>
+		    	<option>gmail.com</option>
+		    	<option>yahoo.com.vn</option>
+		    </select>
+		    <span class="error"></span>			
+		</div>
+		<div class="form-gruop">
+			<label>Ghi Chú</label>
+			<textarea rows="5" cols="40" name="description" id="description"></textarea>
+		</div>
+		<div class="form-gruop">
+			<label for="Gender">Giới Tính</label>
+			<input type="radio" name="Status" value="1">Nam
+			<input type="radio" name="Status" value="0">Nữ
+			<input type="radio" name="Status" value="01">Không
+			<span class="error"></span>
+		</div>
+		<div class="submit" ">
+			<input type="submit" name="submit" value="Đặt Mua" onclick="start(); return false;">
+			<input type="reset" name="reset" value="Đặt Lại">
+		</div>
+	</form>
+	<script type="text/javascript" src="demoJS.js"></script>
+	</body>
+</html>

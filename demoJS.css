@@ -1,0 +1,35 @@
+* {
+	font-family: tahoma;
+}
+header {
+	background-color: #33CCFF;
+	color: #FFFFFF;
+	border: 1px solid black;
+}
+label {
+	width: 200px;
+	float: left;
+}
+.form-gruop {
+	margin: 5px;
+}
+.input-normal {
+	width: 300px;
+}
+input {
+	margin-bottom: 15px;
+}
+h2 {
+	margin-left: 200px;
+}
+.submit {
+	margin-left: 200px;
+}
+#bday {
+	height: 30px;
+	text-align: center;
+}
+.email {
+	width: 187px;
+	height: 20px;
+}
